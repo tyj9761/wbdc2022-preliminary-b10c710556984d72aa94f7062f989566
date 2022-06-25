@@ -12,7 +12,7 @@ Python 版本：3.7.6 PyTorch 版本：1.11.0 CUDA 版本：11.6<br>
 
 ### 代码结构<br>
 (1) 预训练模型 <br> 
-预训练模型使用了huggingface 上提供的 [hfl/chinese-macbert-base](https://huggingface.co/hfl/chinese-macbert-base) 模型和 [hfl/chinese-roberta-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext) <br> 
+预训练模型使用了huggingface 上提供的 [hfl/chinese-macbert-base](https://huggingface.co/hfl/chinese-macbert-base) 模型和 [hfl/chinese-roberta-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext). <br> 
  
 (2) 代码结构说明<br>
 我们使用了部分开源代码，包括[EMA](https://blog.csdn.net/weixin_42677618/article/details/109778055)和[FGM](https://blog.csdn.net/qq_40176087/article/details/121512229)<br>
